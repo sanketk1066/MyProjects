@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homepage</title>
+  <link rel="stylesheet" href="./bootstrap.min.css">
+  <style>
+    .navbar {
+      background-color: black;
+    }
+
+    .navbar-brand {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: xx-large;
+      font-style: italic;
+    }
+
+    .nav-item :hover {
+      background-color: darkcyan
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Header -->
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-fluid ">
+      <a class="navbar-brand ms-5 text-light" href="#">Your ~ Drip</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse ms-5" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item ms-3">
+            <a class="nav-link active link-light" aria-current="page" href="#">New Arrivals</a>
+          </li>
+          <li class="nav-item ms-3">
+            <a class="nav-link link-light" href="./membership.html">Membership</a>
+          </li>
+        </ul>
+        <form class="d-flex me-4" style="width: 30rem;">
+          <input class="form-control bg-outline-dark " type="search" placeholder="Search anything you need"
+            aria-label="Search">
+          <button class="btn btn-outline-dark text-light" type="submit">Search</button>
+        </form>
+        <div>
+          <button class="btn ps-5 aa" style="width: 5rem;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="24" fill="white" class="bi bi-heart-fill"
+              viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+            </svg>
+          </button>
+        </div>
+        <button class="btn" style="width: 5rem;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-cart4"
+            viewBox="0 0 16 16">
+            <path
+              d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z" />
+          </svg>
+        </button>
+
+        <a href="./signup.html" class="me-2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="36" height="30" fill="white" class="bi bi-person-fill"
+            viewBox="0 0 16 16">
+            <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
+          </svg>
+        </a>
+
+      </div>
+    </div>
+  </nav>
+  <!-- content -->
+  <div>
+    <a href="#">
+      <img
+        src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/category/catban-620230711164236.jpg?format=webp&w=1500&dpr=1.3"
+        class="d-block w-100" style="height: 450px;"></a>
+  </div>
+
+  <!-- content--1 -->
+  <div class="d-flex mt-5">
+    <div class="ms-5">
+      <img
+        src="https://www.gritstones.com/cdn/shop/files/Picture1_48_83177965-d375-44f2-aecc-b3bfd1892e24.jpg?v=1688061168"
+        class="img" style="height: 450px; width: 450px;">
+    </div>
+    <div class="ms-5">
+      <img
+        src="https://assets.ajio.com/medias/sys_master/root/20220824/YR2l/630527d4aeb26917619711e6/-473Wx593H-463348059-orange-MODEL.jpg"
+        class="img" style="height: 450px; width: 450px;">
+    </div>
+    <div class="ms-5">
+      <img
+        src="https://kultkid.com/cdn/shop/products/KultKid_026_5cfbf95a-b1b8-4fe7-881d-227d49d123b2_2048x.jpg?v=1622063395"
+        style="height: 450px; width: 450px;">
+    </div>
+  </div>
+  <div class="d-flex justify-content-between mb-5 mt-4">
+    <div class="ms-5">
+      <a href="./men.html"><button class="btn btn-dark fw-bolder fs-3" style="width: 28rem; height: 4rem;">Shop for
+          Men</button></a>
+    </div>
+    <div class="ms-1">
+      <a href="#"><button class="btn btn-dark fs-3 fw-bolder" style="width: 28rem; height: 4rem;">Shop for
+          Women</button></a>
+    </div>
+    <div class="me-3">
+      <a href="#"><button class="btn btn-dark fw-bolder fs-3" style="width: 28rem; height: 4rem;">Shop for
+          Kids</button></a>
+    </div>
+  </div>
+
+
+  <!-- content----2 -->
+  <div class="d-flex">
+    <div class="ms-3 mt-5">
+      <a href="./viranushka.html">
+        <img src="https://www.mansworldindia.com/wp-content/uploads/2020/02/Virat-Anushka-Myntra.jpg"
+          style="height: 36rem; width: 62rem;"></a>
+    </div>
+    <div class="card shadow-lg shadow-danger mt-5 ms-2 me-2">
+      <div class="card-body pt-5">
+        <h1 class="text-center display-1 text-danger">
+          Exclusive!!!!
+          Vir-Anushka
+          Collection
+        </h1>
+        <h3 class="text-center text-danger mt-5 ms-5">
+          #styleupmoveup
+        </h3>
+      </div>
+    </div>
+  </div>
+
+  <!-- content--3  -->
+  <h1 class="text-center mt-5  display-1">Top-Brands</h1>
+  <div class="d-flex mt-5">
+    <div class="me-4 ms-3">
+      <a href="./nike.html"><img src="https://c.static-nike.com/a/images/w_1920,c_limit/bzl2wmsfh7kgdkufrrjq/image.jpg"
+          style="height: 20rem; width: 30rem;"></a>
+    </div>
+    <div class="me-4">
+      <a href="./puma.html"> <img src="https://assets.turbologo.com/blog/en/2019/11/19084917/puma-logo-cover.png"
+          style="height: 20rem; width: 30rem;"></a>
+    </div>
+    <div>
+      <a href="./adidas.html"><img
+          src="https://w0.peakpx.com/wallpaper/792/57/HD-wallpaper-adidas-logo-wall-texture-brand.jpg"
+          style="height: 20rem; width: 30rem;"></a>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer text-center bg-dark text-light py-4 mt-5">
+      Copyright &copy;Your~Drip All rights reserved
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
